@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 
 def home_view(request):
-    return render(request, 'recipes/home.html', context={
-        'name': 'joao',
+    return render(request, 'recipes/pages/home.html', context={
+        'name': 'João Lucas',
         'idade': 21,
         'sabor': 'energetico pae',
     })
